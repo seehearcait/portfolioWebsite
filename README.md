@@ -18,8 +18,8 @@ For this project, you will build a personal portfolio site, a static website whe
 
 ## Project Tasks
 
-- [ ] Plan your project
-- [ ] Wireframe your website
+- [X] Plan your project
+- [X] Wireframe your website
 - [ ] Create files and deploy locally
 - [ ] Version control
 - [ ] Build the Home Page
