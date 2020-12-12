@@ -18,14 +18,14 @@ For this project, you will build a personal portfolio site, a static website whe
 
 ## Project Tasks
 
-[] Plan your project
-[] Wireframe your website
-[] Create files and deploy locally
-[] Version control
-[] Build the Home Page
-[] Build the Contact Page
-[] Style the content
-[] Make it interative
-[] Make it responsive
-[] Publish to the web
-[] Next steps
+[ ] Plan your project
+[ ] Wireframe your website
+[ ] Create files and deploy locally
+[ ] Version control
+[ ] Build the Home Page
+[ ] Build the Contact Page
+[ ] Style the content
+[ ] Make it interative
+[ ] Make it responsive
+[ ] Publish to the web
+[ ] Next steps
