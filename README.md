@@ -20,8 +20,8 @@ For this project, you will build a personal portfolio site, a static website whe
 
 - [X] Plan your project
 - [X] Wireframe your website
-- [ ] Create files and deploy locally
-- [ ] Version control
+- [X] Create files and deploy locally
+- [X] Version control
 - [ ] Build the Home Page
 - [ ] Build the Contact Page
 - [ ] Style the content
