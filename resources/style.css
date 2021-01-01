@@ -1,0 +1,148 @@
+
+/*Elements*/
+* {
+  box-sizing: border-box;
+  scroll-padding-top: 4.475rem;
+}
+
+body {
+  margin: 0; /* prevents scrollbars */
+  font-size: 16px;
+  background-color: var(--cultured);
+}
+
+header{
+  position: relative;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+}
+
+#app {
+  height: 100vh;
+  /* Grid container settings */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+#app > header {
+    grid-area: header;
+    text-align: center;
+    border: 3px solid blue;
+}
+
+#app > main {
+    grid-area: main;
+    /* padding: 15px 5px 10px 5px; */
+    overflow: auto;
+    border: 1px solid magenta;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+        'banner'
+        'aboutMe'
+        'projects'
+        'skills'
+        'contact';
+}
+
+#app > footer {
+    grid-area: footer;
+    border: 3px solid firebrick
+}
+
+/* CLASSES */
+.title {
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-attachment: local;
+  /* background-origin: content-box; */
+  background-size: cover;
+  background-position: top;
+}
+
+/* NAVIGATION */
+
+header li {
+    display: inline;
+    padding: 0 10px;
+}
+
+/* BANNER */
+#banner .image-container {
+    grid-area: banner;
+    border: solid blue 3px;
+    height: 20rem;
+    background-image: url("./images/bannerbackground.jpg");
+    image-rendering: -webkit-optimize-contrast;
+    background-position: bottom;
+}
+
+
+/* ABOUT ME */
+#aboutMe {
+    grid-area: aboutMe;
+}
+
+
+/* PROJECTS */
+#projects {
+    grid-area: projects;
+    background-image: url('./images/redsucculent.jpg');
+}
+
+#projects img {
+    width: 100px;
+}
+
+/* SKILLS */
+#skills {
+    grid-area: skills;
+}
+
+
+/* CONTACT */
+#contact {
+    grid-area: contact;
+}
+
+
+/* COLOR PALETTE */
+:root {
+    --cultured: #EFF0F2ff;
+    --android-green: #A0C13Dff;
+    --rufous: #9A320Bff;
+    --rajah: #F2A14Cff;
+    --shimmering-blush: #D77E98ff;
+}
